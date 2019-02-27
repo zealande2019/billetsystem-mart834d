@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilletSystem", "BilletSystem\BilletSystem.csproj", "{67542410-033A-45E9-9A6C-232EB91F0865}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilletSystem", "BilletSystem\BilletSystem.csproj", "{67542410-033A-45E9-9A6C-232EB91F0865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBil", "TestBil\TestBil.csproj", "{466CC092-8F04-49BE-AFEB-E9F0FC24E71F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBil", "TestBil\TestBil.csproj", "{466CC092-8F04-49BE-AFEB-E9F0FC24E71F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCunitTest", "MCunitTest\MCunitTest.csproj", "{DAC2A874-7996-4521-B08F-BB44783C5E8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCunitTest", "MCunitTest\MCunitTest.csproj", "{DAC2A874-7996-4521-B08F-BB44783C5E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltBilletLibrary", "StoreBaeltBilletLibrary\StoreBaeltBilletLibrary.csproj", "{BBC2D7C3-0E33-46E0-BA29-BA2129027EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Øresundbroen", "Øresundbroen\Øresundbroen.csproj", "{905802BC-E3D4-4AD5-B932-43C280BB1ED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{DAC2A874-7996-4521-B08F-BB44783C5E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAC2A874-7996-4521-B08F-BB44783C5E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAC2A874-7996-4521-B08F-BB44783C5E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC2D7C3-0E33-46E0-BA29-BA2129027EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC2D7C3-0E33-46E0-BA29-BA2129027EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC2D7C3-0E33-46E0-BA29-BA2129027EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC2D7C3-0E33-46E0-BA29-BA2129027EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905802BC-E3D4-4AD5-B932-43C280BB1ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905802BC-E3D4-4AD5-B932-43C280BB1ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905802BC-E3D4-4AD5-B932-43C280BB1ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905802BC-E3D4-4AD5-B932-43C280BB1ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

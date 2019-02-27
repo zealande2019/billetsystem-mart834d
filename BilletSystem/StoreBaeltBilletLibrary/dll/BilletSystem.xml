@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletSystem</name>
+    </assembly>
+    <members>
+        <member name="T:BilletSystem.Bil">
+            <summary>
+            Bil klassen
+            </summary>
+        </member>
+        <member name="M:BilletSystem.Bil.#ctor(System.String)">
+            <summary>
+            Bil klassens contructor
+            </summary>
+            <param name="nummerPlade"></param>
+        </member>
+        <member name="M:BilletSystem.Bil.køretøj">
+            <summary>
+            En metode der beskriver hvilket køretøj den passer til Klassen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletSystem.Bil.Pris">
+            <summary>
+            En metode der beskriver prisen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletSystem.Bil.Brobizz">
+            <summary>
+            en metode der beskriver brobizzen for en bil
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletSystem.køretøjer">
+            <summary>
+            Baseklassen for køretøjer
+            </summary>
+        </member>
+        <member name="M:BilletSystem.køretøjer.#ctor(System.String)">
+            <summary>
+            Baseklassens constructor
+            </summary>
+            <param name="nummerplade"></param>
+        </member>
+        <member name="P:BilletSystem.køretøjer.nummerPlade">
+            <summary>
+            property der beskriver nummerpladen
+            </summary>
+        </member>
+        <member name="P:BilletSystem.køretøjer.Dato">
+            <summary>
+            property der beskriver Dato'en
+            </summary>
+        </member>
+        <member name="M:BilletSystem.køretøjer.Pris">
+            <summary>
+            Abstravt metode til Pris
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletSystem.køretøjer.køretøj">
+            <summary>
+            Abstract metode, til en at vide hvilken type køretøj.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletSystem.køretøjer.Brobizz">
+            <summary>
+            Abstract metode, som beskriver brobizzen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletSystem.MC">
+            <summary>
+            MC klassen
+            </summary>
+        </member>
+        <member name="M:BilletSystem.MC.#ctor(System.String)">
+            <summary>
+            MC Klassens constructor
+            </summary>
+            <param name="nummerplade"></param>
+        </member>
+        <member name="M:BilletSystem.MC.Pris">
+            <summary>
+            Metode til MC klassen der skriver prisen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletSystem.MC.køretøj">
+            <summary>
+            En metode, der beskriver hvilket køretøj
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletSystem.MC.Brobizz">
+            <summary>
+            en metode der viser brobizz rabat på MC
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
